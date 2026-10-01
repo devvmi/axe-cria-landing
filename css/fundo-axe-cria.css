@@ -1,0 +1,13 @@
+html { background: #fafaf8; }
+body { position: relative; min-height: 100vh; background: transparent; }
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: url("../img/fundo-axe-cria.jpg") center top / cover no-repeat;
+  pointer-events: none;
+}
+main, section { background: transparent; }
+.card { background: rgba(255,255,255,.85); border-radius: 16px; }
+@media print { body::before { display: none; } }

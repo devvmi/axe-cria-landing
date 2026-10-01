@@ -1,0 +1,22 @@
+﻿# Sistema operacional
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependências
+node_modules/
+
+# Logs e temporários
+*.log
+.tmp/
+tmp/
+
+# Ambiente local
+.env
+.env.*
